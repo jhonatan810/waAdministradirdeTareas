@@ -1,0 +1,17 @@
+(function(){
+	"use strict";
+	
+	var app = angular.module("AdministradordeTareas", ["ui-router"]);
+	
+	app.config(["$stateProvider", "$urlRouterProvider", 
+	            function($stateProvider, $urlRouterProvider){
+		
+					$stateProvider.
+							.state("inicio",{}
+								url: "/",
+								template:"paginas/bienvenidos.html"	});
+		
+		
+				}]);
+	
+})();

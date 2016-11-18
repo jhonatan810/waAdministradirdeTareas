@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Administrador de Tareas</title>
+	
+	<!--Estilos -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="css/app.css" rel="stylesheet"/>
+	<!--Librerias javascript -->
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	<!--Librerias Angular.js -->
+		<script src="js/angular.min.js"></script>
+		<script src="js/angular-ui-router.min.js"></script>
+	<!--Librerias de la Aplicacion -->
+		<script src="app/app.js"></script>
+		<script src="app/MainCtrl.js"></script>
+</head>
+<body ng-app="AdministradordeTareas">
+
+	<!--Menu-->
+	<div class="navbar navbar-inverse">
+		<div class="container">
+			<a ui-srref="inicio" class="navbar-brand">Administrador de Tareas</a>
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" 
+					data-toggle="collapse" 
+					data-target=".navbar-collapse">
+					<span class="sr-only">Toogle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			
+			<div class="navbar-collapse collapse"> 
+				<ul class="nav navbar-nav">
+					<li><a ui-srref="tareas">Tareas</a></li>
+					<li><a ui-srref="nuevatarea">Agregar Tareas</a></li>
+					<li><a ui-srref="estadisticas">Estadisticas</a></li>
+				</ul>
+			</div>
+		</div>
+	
+	</div>
+	<!--/Menu-->
+	
+	<div class="container">
+		<div ui-view>
+		</div>
+	</div>
+
+	
+</body>
+</html>

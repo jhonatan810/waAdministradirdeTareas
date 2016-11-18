@@ -1,0 +1,73 @@
+<h1>Tareas</h1>
+
+<hr>
+
+<div class="table-responsive">
+	<table class="table table-hover">
+		<thead>
+			<th></th>
+			<th>
+				Descrpci&oacute;n
+			</th>
+			<th>
+				Asignado a
+			</th>
+			<th class="text-right">
+				Prioridad
+			</th>
+		</thead>
+		<tbody>  
+			<tr>
+				<td href="#" class="btn btn-default">
+					<pan class="glyphicon glyphicon-pencil"></pan>
+				</td>
+				<td href="#" class="btn btn-default">
+					<pan class="glyphicon glyphicon-remove"></pan>
+				</td>
+				<td>Tarea 1</td>
+				<td>Pendiente</td>
+				<td><img src ="imagenes/Bioman32x32.png">Usuario 1</td>
+				<td class="text-right">
+					<div class="col-md-12 text-center prioridad-baja">
+						Baja
+					</div>
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td href="#" class="btn btn-default">
+					<pan class="glyphicon glyphicon-pencil"></pan>
+				</td>
+				<td href="#" class="btn btn-default">
+					<pan class="glyphicon glyphicon-remove"></pan>
+				</td>
+				<td>Tarea 2</td>
+				<td>Pendiente</td>
+				<td><img src ="imagenes/Blue32x32.png">Usuario 2</td>
+				<td class="text-right">
+					<div class="col-md-12 text-center prioridad-media">
+						Media
+					</div>
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td href="#" class="btn btn-default">
+					<pan class="glyphicon glyphicon-pencil"></pan>
+				</td>
+				<td href="#" class="btn btn-default">
+					<pan class="glyphicon glyphicon-remove"></pan>
+				</td>
+				<td>Tarea 3</td>
+				<td>Pendiente</td>
+				<td>Usuario 1</td>
+				<td class="text-right">
+					<div class="col-md-12 text-center prioridad-alta">
+						Alta
+					</div>
+				</td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+</div>

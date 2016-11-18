@@ -1,0 +1,13 @@
+(function(){
+	"use strict";
+	
+	var app = angular
+				.module("tareasResourceMock", ["ngMockE2E"]);
+	
+	app.run(function($httpBackend){
+		
+		
+		
+	});
+	
+})();

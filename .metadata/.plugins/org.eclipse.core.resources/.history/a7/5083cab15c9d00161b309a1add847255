@@ -1,0 +1,30 @@
+<h1>Tareas</h1>
+
+<hr>
+
+<div class="table-responsive">
+	<table class="table table-hover">
+		<thead>
+			<th></th>
+			<th>
+				Descrpci&oacute;n
+			</th>
+			<th>
+				Asignado a
+			</th>
+			<th class="text-right">
+				Prioridad
+			</th>
+		</thead>
+		<tbody>
+			<tr>
+				<td href="#" class="btn btn-default"></td>
+				<td>Tarea 1</td>
+				<td>Pendiente</td>
+				<td>Usuario 1</td>
+				<td>Baja</td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+</div>

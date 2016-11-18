@@ -1,0 +1,4 @@
+127.0.0.1 - - [27/Oct/2016:18:05:46 -0500] "GET / HTTP/1.1" 404 961
+0:0:0:0:0:0:0:1 - - [27/Oct/2016:18:05:47 -0500] "GET /AdministradordeTareas/ HTTP/1.1" 404 1005
+0:0:0:0:0:0:0:1 - - [27/Oct/2016:18:05:54 -0500] "GET /AdministradordeTareas/index.html HTTP/1.1" 404 1025
+0:0:0:0:0:0:0:1 - - [27/Oct/2016:18:06:10 -0500] "GET /AdministradordeTareas/index.html HTTP/1.1" 200 131

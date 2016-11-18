@@ -1,0 +1,14 @@
+(function(){
+	"use strict";
+
+	angular
+		.module("AdministradordeTareas")
+		.controller("TareasCtrl", ["tareasResource", TareasCtrl])
+		
+		
+		
+		function TareasCtrl(tareasResource){
+		
+		}
+	
+})();

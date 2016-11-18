@@ -1,0 +1,28 @@
+(function(){
+	"use strict";
+	
+	var app = angular.module("AdministradordeTareas", ["ui.router"]);
+	
+	app.config(["$stateProvider", "$urlRouterProvider", 
+	            function($stateProvider, $urlRouterProvider){
+		
+					$stateProvider
+							.state("inicio",{
+								url: "/",
+								template:"paginas/bienvenidos.html"	
+							})
+							.state("tareas",{
+								url: "/tareas",
+								template:"paginas/tareas.html"	
+							})
+							.state("nuevaTarea",{
+								url: "/nuevatarea",
+								template:"paginas/nuevatarea.html"	
+							})
+							.state("estadisticas",{
+								url: "/estadisticas",
+								template:"paginas/estadisticas.html"	
+							});
+		
+				}]);
+})();

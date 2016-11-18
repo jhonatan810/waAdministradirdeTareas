@@ -1,0 +1,29 @@
+(function(){
+	"use strict";
+	
+	var app = angular
+	
+	app.run(function($httpBackend){
+		
+		var tareas = [
+              {
+            	  "tareaId" : "1",
+            	  "asignadoA" : {
+            		  	"usuarioId" : "1",
+            		  	"nombre"    : "Steve Rogers",
+             	  		"puestoId"	: "2",
+             	  		"imagenPequena" : "imagenes/capitan32x32.png",
+             	  		"imagenGrande" : "imagenes/capitan128x128.png",
+            	  },
+            	  "descripcion" : "Crear view para listar tareas",
+            	  "estado"      : "PENDIENTE",
+            	  "prioridad"   : "Alta"
+              }];
+		var tareasUrl = "/api/tareas";
+		
+		$httpBackend.when("GET",tareasUrl).respond(tareas);
+		$httpBackend.when("GET","/paginas/").passThrough();
+		
+	});
+	
+})();

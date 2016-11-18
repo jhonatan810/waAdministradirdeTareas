@@ -1,0 +1,21 @@
+<h1>Tareas</h1>
+
+<hr>
+
+<div class="table-responsive">
+	<table class="table table-hover">
+		<head>
+			<th></th>
+			<th>
+				Descrpci&oacute;n
+			</th>
+			<th>
+				Asignado a
+			</th>
+			<th class="text-right">
+				Descrpci&oacute;n
+			</th>
+			
+		</head>
+	</table>
+</div>

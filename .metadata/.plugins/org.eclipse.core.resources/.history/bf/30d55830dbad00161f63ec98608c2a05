@@ -1,0 +1,68 @@
+<h1>Usuarios<h1>
+
+<div class="table.responsive">
+	
+	<table class="table table-hover">
+		<thead>
+			<tr>
+				<th class="col-md-2"></th>
+				<th class="col-md-1"></th>
+				<th class="col-md-9">
+					Nombre	
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+					<a href="#">
+						<span class="glyphicon glyphicon-pencil"></span>
+					</a>
+					<a href="#">
+						<span class="glyphicon glyphicon-remove"></span>
+					</a>
+				</td>
+				<td>
+					<img src="imagenes/capitan32x32.png" alt="">
+				</td>
+				<td>
+					Capitan America
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="#">
+						<span class="glyphicon glyphicon-pencil"></span>
+					</a>
+					<a href="#">
+						<span class="glyphicon glyphicon-remove"></span>
+					</a>
+				</td>
+				<td>
+					<img src="imagenes/Frankenstein32x32.png" alt="">
+				</td>
+				<td>
+					Frankenstein
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="#">
+						<span class="glyphicon glyphicon-pencil"></span>
+					</a>
+					<a href="#">
+						<span class="glyphicon glyphicon-remove"></span>
+					</a>
+				</td>
+				<td>
+					<img src="imagenes/thor32x32.png" alt="">
+				</td>
+				<td>
+					Thor
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+
+</div>
